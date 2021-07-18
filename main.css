@@ -6,7 +6,7 @@
 /* first page with boy illustraion and text from line 70 */
 container{
    height:100%;
-   width:100%;
+   width:95%;
    margin:auto;
    display:flex;
    flex-direction: column;
