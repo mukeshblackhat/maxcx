@@ -1,0 +1,152 @@
+*{
+   margin:0%;
+   padding:0%;
+}
+/* header till line 69 */
+/* first page with boy illustraion and text from line 70 */
+container{
+   height:100%;
+   width:100%;
+   margin:auto;
+   display:flex;
+   flex-direction: column;
+}
+.top{
+   /* background-color: aqua; */
+/* height:2vh; */
+width:93%;
+margin:auto;
+}
+.header{  
+   /* position:absolute; */
+   display:flex;
+   padding-top:5vh;
+   padding-bottom:5vh;
+   justify-content: space-between;
+   /* margin-left:5vh ;
+   margin-right:5vh ; */
+   font-size:2.5vh;
+}
+.logoname{
+   display:flex;
+   align-items: center;
+}
+.name_of_site{
+   padding-left:20px ;
+   padding-right:20px;
+}
+
+.diffButton{
+   display:flex;
+   align-items:center;
+   width:30%;
+   color:#4F5665;
+   justify-content: space-between;
+
+}
+.logging{
+   display:flex;
+   align-items:center;
+   width:15%;
+   /* justify-content: space-between; */
+   
+}
+.signIn{
+   padding:0px;
+   padding-right:2vh;
+   padding-left:2vh;
+   padding-top:.5vh;
+   padding-bottom:.5vh;
+   
+}
+.signUp{
+   padding:0px;
+   padding-right:2vh;
+   padding-left:2vh;
+   padding-top:.5vh;
+   padding-bottom:.5vh;
+}
+
+.logging div:hover{
+   cursor:pointer;
+   
+   border: 1px solid #F53855;
+   /* border-width:5px; */
+   border-radius: 15px;
+   color:#F53855;
+}
+
+
+/* header ends here  */
+/* here we move forward  */
+ .firstpage{
+    background-color: green;
+   display: flex;
+   padding-top:5vh;
+   width:100%;
+   margin-top: 5vh;
+   /* margin:auto !important; */
+}
+
+.start{
+   display:flex;
+   width:96%;
+   height:90vh;
+   margin:auto;
+   /* margin-top:10vh; */
+
+ } 
+.text1{
+   padding-top: 8vh;
+   display:flex;
+   flex-direction: column;
+   width:50%;
+}
+.h1{
+   display:flex;
+   font-size:4vh;
+   padding-top:5vh ;
+   padding-bottom:5vh ;
+}
+.h3{Font-family: Rubik;
+   color:#4F5665;
+   display:flex;
+   font-size: 2vh;
+   padding-bottom:5vh ;
+   padding-top:5vh;
+}
+.button_get{
+display:flex;
+margin-top:5vh;
+}
+.start_button{
+   display:flex;
+   
+   padding-bottom:3vh;
+   padding-top: 3vh;
+   border-radius: 20px;
+   background-color:#F53855 ;
+   color:white;
+   font-size: 3vh;;
+   padding-left: 8vh;
+   padding-right:8vh ;
+
+}
+/* .start_button:after {
+   content:"";
+   position:absolute;
+   width:30%;
+   bottom:1px;
+   z-index:-1;
+   transform:scale(.9);
+   box-shadow: 0px 2px 5px 2px #F53855  ;
+} */
+.boy_illustraion{
+   width:50%;
+   padding-top: 8vh;
+}
+.boy_img{
+   
+   height:70vh;
+   width:100%;
+} 
