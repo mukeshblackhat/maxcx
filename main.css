@@ -7,7 +7,7 @@
 /* first page with boy illustraion and text from line 70 */
 container{
    height:100%;
-   width:95%;
+   width:90%;
    margin:auto;
    display:flex;
    flex-direction: column;
@@ -21,20 +21,20 @@ margin:auto;
 .header{  
    /* position:absolute; */
    display:flex;
-   padding-top:5vh;
-   padding-bottom:5vh;
+   padding-top:2%;
+   padding-bottom:2%;
    justify-content: space-between;
    /* margin-left:5vh ;
    margin-right:5vh ; */
-   font-size:2.5vh;
+   font-size:1.3em;
 }
 .logoname{
    display:flex;
    align-items: center;
 }
 .name_of_site{
-   padding-left:20px ;
-   padding-right:20px;
+   padding-left:20% ;
+   padding-right:20%;
 }
 
 .diffButton{
@@ -48,26 +48,27 @@ margin:auto;
 .logging{
    display:flex;
    align-items:center;
-   width:auto;
+   /* width:20%; */
    justify-content: flex-end;
    /* justify-content: space-between; */
    
 }
 .signIn{
+   
    padding:0px;
-   padding-right:2vh;
-   padding-left:2vh;
-   padding-top:.5vh;
-   padding-bottom:.5vh;
+   padding-right:1%;
+   padding-left:1%;
+   padding-top:5%;
+   padding-bottom:5%;
    border: 1px solid #f5385400;
    
 }
 .signUp{
    padding:0px;
-   padding-right:2vh;
-   padding-left:2vh;
-   padding-top:.5vh;
-   padding-bottom:.5vh;
+   padding-right:1%;
+   padding-left:1%;
+   padding-top:5%;
+   padding-bottom:5%;
    border: 1px solid #f5385400;
 }
 
@@ -87,54 +88,56 @@ margin:auto;
  .firstpage{
     /* background-color: green; */
    display: flex;
-   padding-top:5vh;
+   padding-top:5%;
    width:100%;
-   margin-top: 5vh;
+   padding-left: 5%;
+   padding-right:5% ;
+   margin-top: 5%;
    /* margin:auto !important; */
 }
 
 .start{
    display:flex;
    width:96%;
-   height:90vh;
+   height:90%;
    margin:auto;
    /* margin-top:10vh; */
 
  } 
 .text1{
-   padding-top: 8vh;
+   padding-top: 8%;
    display:flex;
    flex-direction: column;
    width:50%;
 }
 .h1{
    display:flex;
-   font-size:4vh;
-   padding-top:5vh ;
-   padding-bottom:5vh ;
+   font-size:190%;
+   padding-top:5%;
+   padding-bottom:5% ;
 }
 .h3{Font-family: Rubik;
    color:#4F5665;
    display:flex;
-   font-size: 2vh;
-   padding-bottom:5vh ;
-   padding-top:5vh;
+   font-size: 95%;
+   padding-bottom:5% ;
+   padding-top:5%;
 }
 .button_get{
 display:flex;
-margin-top:5vh;
+margin-top:5%;
 }
 .start_button{
    display:flex;
    
-   padding-bottom:3vh;
-   padding-top: 3vh;
+   padding-bottom:3%;
+   padding-top: 3%;
    border-radius: 20px;
    background-color:#F53855 ;
    color:white;
-   font-size: 3vh;;
-   padding-left: 8vh;
-   padding-right:8vh ;
+   font-size: 142%;;
+   padding-left: 8%;
+   padding-right:8% ;
 
 }
 /* .start_button:after {
@@ -152,18 +155,18 @@ margin-top:5vh;
 }
 .boy_img{
    
-   height:70vh;
+   height:100%;
    width:100%;
 } 
 
 .statics{
-   height:20vh;
+   height:20%;
    width:80%;
    display:flex;
    margin:auto;
    margin-bottom: 2vh;
    align-items: center;
-   padding:2%;
+   padding:8%;
   
    border-radius: 5vh;
 }
@@ -172,7 +175,8 @@ margin-top:5vh;
    display:flex;
    align-items: center;
    justify-content: center;
-
+   padding-left:5% ;
+   padding-right:5% ;
 
 }
 .location{
@@ -188,20 +192,20 @@ margin-top:5vh;
    justify-content: center;
 }
 .border{
-   margin:3vh;
+   margin:3%;
    height:50%;
    width:.2%;
    background-color: grey;
    border-radius: 20%;
 }
 .noofcustom{
-  padding:3vh;
+  padding:3%;
 }
 .noofcampus{
-   padding:3vh;
+   padding:3%;
 }
 .noofserver{
-   padding:3vh;
+   padding:3%;
 }
 /*       */
 /*  */
@@ -216,71 +220,72 @@ margin-top:5vh;
 }
 .pagediv{
    display: flex;
-   padding:5vh;
+   /* padding:5%; */
    width:95%;
-   margin-top: 5vh;
+   /* margin-top: 5%; */
    /* align-items: center; */
    justify-content: center;
    justify-items:last baseline;
-   margin-bottom: 5vh;
+   margin-bottom: 5%;
    justify-content: space-between;
 }
 .scndboy{
    width:50%;
    display:flex;
    justify-content: center;
-   margin-right: 2vh;
+   margin-right: 2%;
 }
 .scndimg{
-  padding-left:5vh ;
-  padding-right:5vh ;
-  width:70vh;
+  padding-left:5%;
+  padding-right:5% ;
+  width:100%;
   height:100%;
-  padding-bottom: 2vh;
-  margin-right: 2vh;
+  padding-bottom: 2%;
+  margin-right: 2%;
 
 }
 .aboutfeatures{
    width:45%;
-   margin-top:5vh;
-   margin-left: 4vh;
+   margin-top:5%;
+   margin-left: 4%;
    display:flex;
-   padding-left:10vh;
+   padding-left:10%;
    justify-content: center;
    flex-direction: column;
    
    
 }
 .tagline{
-   font-size:6vh;
+   font-size:280%;
+   /* font-size:6vh; */
    /* font-size: 2.5em; */
-   padding:2vh;
-   margin-top: 6vh;
+   padding:2%;
+   margin-top: 6%;
 }
 .tagdown{
-   padding:2vh;
+   padding:2%;
 }
 .tablefeature{
-   padding:2vh;
-   padding-bottom: 0vh;
+   padding:2%;
+   padding-bottom: 0%;
 }
 .fisrtftr{
    display:flex;
-   margin-top:2vh;
+   margin-top:2%;
 
 }
 .scndftr{
    display:flex;
-   margin-top:2vh;
+   margin-top:2%;
 }
 .thrdftr{
    display:flex;
-   margin-top:2vh;
+   margin-top:2%;
 }
 .forthftr{
    display:flex;
-   margin-top:2vh;
+   margin-top:2%;
 }
 .ticktext{
-margin-left:2vh;
+margin-left:2%;
 }
