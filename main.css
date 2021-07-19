@@ -85,7 +85,7 @@ margin:auto;
 /* header ends here  */
 /* here we move forward  */
  .firstpage{
-    background-color: green;
+    /* background-color: green; */
    display: flex;
    padding-top:5vh;
    width:100%;
@@ -155,3 +155,132 @@ margin-top:5vh;
    height:70vh;
    width:100%;
 } 
+
+.statics{
+   height:20vh;
+   width:80%;
+   display:flex;
+   margin:auto;
+   margin-bottom: 2vh;
+   align-items: center;
+   padding:2%;
+  
+   border-radius: 5vh;
+}
+.customers{ 
+   width:33%;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+.location{
+   width:33%;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+.serversupport{
+   width:33%;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+.border{
+   margin:3vh;
+   height:50%;
+   width:.2%;
+   background-color: grey;
+   border-radius: 20%;
+}
+.noofcustom{
+  padding:3vh;
+}
+.noofcampus{
+   padding:3vh;
+}
+.noofserver{
+   padding:3vh;
+}
+/*       */
+/*  */
+/*  */
+/*  */
+/*  */
+.pagetwo{
+   display:flex;
+   width:100%;
+   justify-content: center;
+
+}
+.pagediv{
+   display: flex;
+   padding:5vh;
+   width:95%;
+   margin-top: 5vh;
+   /* align-items: center; */
+   justify-content: center;
+   justify-items:last baseline;
+   margin-bottom: 5vh;
+   justify-content: space-between;
+}
+.scndboy{
+   width:50%;
+   display:flex;
+   justify-content: center;
+   margin-right: 2vh;
+}
+.scndimg{
+  padding-left:5vh ;
+  padding-right:5vh ;
+  width:70vh;
+  height:100%;
+  padding-bottom: 2vh;
+  margin-right: 2vh;
+
+}
+.aboutfeatures{
+   width:45%;
+   margin-top:5vh;
+   margin-left: 4vh;
+   display:flex;
+   padding-left:10vh;
+   justify-content: center;
+   flex-direction: column;
+   
+   
+}
+.tagline{
+   font-size:6vh;
+   /* font-size: 2.5em; */
+   padding:2vh;
+   margin-top: 6vh;
+}
+.tagdown{
+   padding:2vh;
+}
+.tablefeature{
+   padding:2vh;
+   padding-bottom: 0vh;
+}
+.fisrtftr{
+   display:flex;
+   margin-top:2vh;
+
+}
+.scndftr{
+   display:flex;
+   margin-top:2vh;
+}
+.thrdftr{
+   display:flex;
+   margin-top:2vh;
+}
+.forthftr{
+   display:flex;
+   margin-top:2vh;
+}
+.ticktext{
+margin-left:2vh;
+}
