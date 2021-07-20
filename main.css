@@ -289,3 +289,85 @@ margin-top:5%;
 .ticktext{
 margin-left:2%;
 }
+.headingforplan{
+  height :10%;
+  width:100%;
+  /* background-color: aqua; */
+  text-align: center;
+  padding:2%;
+  margin-bottom: 2%;
+}
+.heading{
+   font-weight: 600;
+   font-size: 160%;
+   padding:.2%;
+}
+.sometext{
+   padding:.2%
+}
+.plancards{
+   padding:5%;
+   margin:1%;
+   /* background-color: aqua; */
+   display:flex;
+
+}
+.card{
+   display:flex;
+   flex-direction: column;
+   border:2px solid grey;
+   width:30%;
+   align-items: center;
+   border-radius: 8px;
+   padding:5%;
+   margin: 2%;
+}
+.imgbox{
+   height: 80%;
+   width:80%;
+   padding-bottom:15%;
+}
+.planname{
+   font-weight: bolder;
+   font-size: 160%;
+   padding-bottom: 18%;
+}
+.benifts{
+   padding-left: 2%;
+   height:40%;
+   /* background-color: beige; */
+   padding-bottom:80%;
+}
+.benifittext{
+   padding-top:5% ;
+   padding-bottom:5% ;
+
+}
+.rate{
+   font-weight: bolder;
+   font-size: 200%;
+   padding-top: 20%;
+   padding-bottom:5% ;
+}
+.selectbtn{
+   border: 1px solid #F53855;
+   /* border-width:5px; */
+   border-radius: 25px;
+   color:#F53855;
+   font-size: 170%;
+   padding:2%;
+   padding-left:15%;
+   padding-right:15% ;
+  
+}
+.select11{
+   display:flex;
+   margin: 2%;
+   width:100%;
+   justify-content: center;
+}
+.select11 div:hover{
+   background-color:#F53855 ;
+   color:white;
+   cursor: pointer;
+}
